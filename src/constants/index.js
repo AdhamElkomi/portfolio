@@ -1,129 +1,17 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Internship – Autonomous Navigation on Jackal (Clearpath Robotics)",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Worked on deploying existing ROS packages for autonomous navigation using Jackal, focusing on integrating a LiDAR and RealSense camera for indoor mapping.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Facilitated sensor integration and system setup using ROS tools and launch files.",
+      "Applied ROS fundamentals (nodes, topics, packages) in a real robotic environment.",
+      "Improved system behavior through testing and structured debugging.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    href: "/projects/JackalProject",
+    logo: "/assets/logo/VL-clearpath.png",
+    image: "/assets/projects/exploration_2D&3D.gif",
     tags: [
       {
         id: 1,
@@ -132,197 +20,251 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "ROS",
+        path: "/assets/logos/ROS.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "Shell/Linux",
+        path: "/assets/logos/terminal-svgrepo-com.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "RViz",
+        path: "/assets/logos/Rviz_logo.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "AWAKE Challenge 2025 | INNOVATEAM (National Robotics Competition)",
+    description:
+      "A secure authentication and authorization system using Auth0 for seamless user management.",
+    subDescription: [
+      "Created an original McQueen-inspired 3D design balancing style and technical constraints.",
+      "Worked with the engineering team to align design with hardware integration.",
+      "Ranked 4th out of 12 teams in the final held on June 4, 2025, in Puteaux, France.",
+    ],
+    href: "/projects/AwakeProject",
+    logo: "",
+    image: "/assets/awake_design.gif",
+    tags: [
+      {
+        id: 1,
+        name: "Fusion 360",
+        path: "/assets/logos/fusion360.png",
+      },
+      {
+        id: 2,
+        name: "Arduino",
+        path: "/assets/logos/arduino.png",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Analytical Study and Outlier Filtering of 3D Point Clouds from RS-LiDAR-16",
+    description:
+      "Explored and processed 3D LiDAR data from the RS-LiDAR-16 to better understand sensor behavior and improve point cloud accuracy.",
+    subDescription: [
+      "Tested LiDAR detection in real time using RSView after learning the basics.",
+      "Removed outliers with CloudCompare using data from ROS."
+    ],
+    href: "/projects/lidar-project",
+    logo: "",
+    image: "/assets/projects/RvizGIF.gif",
+    tags: [
+      {
+        id: 1,
+        name: "CloudCompare",
+        path: "/assets/logos/CloudCompareV2_logo.png",
+      },
+      {
+        id: 2,
+        name: "ROS",
+        path: "/assets/logos/ROS_icon.png",
+      },
+      {
+        id: 3,
+        name: "Gazebo",
+        path: "/assets/logos/Gazebo.png",
+      },
+      {
+        id: 4,
+        name: "Python",
+        path: "/assets/logos/Python_logo_01.png",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "DrawROB - Omnidirectional Drawing Robot",
+    description:
+      "",
+    subDescription: [
+      "In a team of students, I helped develop a Webots simulation of a mobile robot that draws geometric shapes like squares, triangles, and circles. We focused on coding motion sequences using simple kinematics and fine-tuned the trajectories for smooth results.",
+    ],
+    href: "/projects/DrawBOT",
+    logo: "",
+    image: "/assets/projects/DrawBOT1.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "C++",
+        path: "/assets/logos/cplusplus.svg",
+      },
+      {
+        id: 2,
+        name: "Arduino",
+        path: "/assets/logos/arduino.png",
+      },
+      {
+        id: 3,
+        name: "webots",
+        path: "/assets/logos/webots.png",
+      },
+      {
+        id: 4,
+        name: "Fusion",
+        path: "/assets/logos/fusion360.png",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "ASFOUR Game - Boids Simulation",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "An interactive simulation where virtual birds flock in real time, following simple rules that create smooth, lifelike group motion. A visual and engaging dive into swarm intelligence. Try it yourself—it's available on my GitHub!"
     ],
-    href: "",
+    href: "/projects/BoidsProject",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/ASFOUR.jpg",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
+        name: "Python",
+        path: "/assets/logos/Python_logo_01.png",
       },
       {
         id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
+        name: "Pygame",
+        path: "/assets/logos/pygame_icon.jpg",
+      }
     ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  }
 ];
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/+330783532618",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/adham-ali-b92926303/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
-  },
+    name: "Github",
+    href: "https://github.com/AdhamElkomi",
+    icon: "/assets/socials/github-svgrepo-com (2).svg",
+  }
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Lycée Français de Koweït (LFK)",
+    job: "French General Baccalaureate Diploma, 2022",
+    date: "2008-2022",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Completed all schooling from preschool (moyenne section) to senior year (terminale) at the French International School of Kuwait, accredited by the AEFE (Agency for French Education Abroad) and following the official French national curriculum.",
+      "Graduated in 2022 with the French General Baccalauréat diploma, awarded 'mention Très Bien' (highest honors).",
+      "Specialized in Mathematics, Physics-Chemistry, and Digital and Computer Science (NSI), in line with the French education system.",
+      "Studied in a multicultural environment with a strong academic foundation in science and technology."
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Polytech Dijon - University of Burgundy",
+    job: "Integrated Preparatory Program",
+    date: "2022-2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Began with foundational courses in mathematics, physics, computer science, and engineering sciences during the first year.",
+      "Gradually shifted toward robotics-focused subjects in the second year, including basics of mechanics, electronics, and embedded systems.",
+      "Continued studying core scientific subjects while deepening technical skills relevant to robotic design and control.",
+      "Completed the year with a hands-on Arduino project: an automated plant-watering system introducing basic electronic control principles."
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Polytech Dijon – University of Burgundy",
+    job: "Engineering Cycle – Major in Robotics and Instrumentation",
+    date: "2024-Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Currently enrolled in the engineering cycle with a specialization in Robotics and Instrumentation at the Le Creusot campus.",
+      "Studying advanced topics in control systems, signal processing, real-time programming, and embedded electronics.",
+      "Applying theoretical knowledge through hands-on labs, technical projects, and team-based challenges.",
+      "Developing cross-disciplinary skills to design, simulate, and implement intelligent robotic systems.",
+      "Expected to graduate with an accredited French engineering degree in February 2027."
     ],
   },
 ];
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    name: "Wael",
+    username: "@Wael Sayed",
+    body: "Bravo Adham ALI 👏🏻",
+    img: "https://media.licdn.com/dms/image/v2/D4E03AQHFEOU4sp59mg/profile-displayphoto-shrink_400_400/B4EZXfMl.gGgAk-/0/1743206376230?e=1758153600&v=beta&t=chYmCucJg0m5Wt2F2jtEvomrZWuAM652eQUGCXS2sYQ",
+    link: "https://www.linkedin.com/in/wael-sayed03/"
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    name: "David",
+    username: "@David Fofi",
+    body: "You deserve this 4th place like your comrades. Well done! 👏",
+    img: "https://media.licdn.com/dms/image/v2/C4D03AQH-G-1tC2faOw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516796529630?e=1758153600&v=beta&t=UwVCn2v9JERlXNwkkk6cknd7svht9ebctiWQsFKUZ88",
+    link: "https://www.linkedin.com/in/davidfofi/"
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    name: "Hadi",
+    username: "@Hadi El Ayoubi",
+    body: "Congrats Adham! 🎉",
+    img: "https://media.licdn.com/dms/image/v2/D4E03AQF3ULi7JV5gVg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731525077205?e=1758153600&v=beta&t=XHzyQWMBK7ejqIj6kOmxKwFtpTFa9e6uhF9hGRne53c",
+    link: "https://www.linkedin.com/in/hadi-el-ayoubi-485ab0332/",
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
+    name: "Kevin",
+    username: "@Kevin Gelonch",
+    body: "Too bad you couldn’t be there, but we were all thinking of you! And congrats on staying motivated right until the finish line! 😉",
+    img: "https://media.licdn.com/dms/image/v2/D4D03AQHTqFFACViZ9Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688808599763?e=1758153600&v=beta&t=PjY8YQJ4_rnHNdMj85jI8Lp-4DvZqfrgglUETYUpW1U",
+    link: "https://www.linkedin.com/in/kevin-gelonch-b54936282/"
   },
   {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
+    name: "Terryl",
+    username: "@TERRYL NGUETI",
+    body: "Congratulation to your team and you Adham ! 👏 👍",
+    img: "https://media.licdn.com/dms/image/v2/D4E35AQGXyZBq7Ac_RA/profile-framedphoto-shrink_400_400/B4EZcmsILrHIAc-/0/1748700791834?e=1752976800&v=beta&t=heou5O_Fb_ZSFLHMS5230dv2mKrBHPUQPybemu61lwI",
+    link: "https://www.linkedin.com/in/terryl-ngueti-73a738346/",
   },
   {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
+    name: "Ousmane",
+    username: "@Ousmane Capinto CAMARA",
+    body: "Well done Adham ALI for this achievement. It truly shows how proactive and dynamic you can be. Thanks as well to your supervisors David Fofi and Raphaël Duverne.",
+    img: "https://media.licdn.com/dms/image/v2/D4D03AQFTEQlgWolMIg/profile-displayphoto-shrink_400_400/B4DZWuFYvjH4Ag-/0/1742382403060?e=1758153600&v=beta&t=uYiGzjZiCjDS2jumWXz-ZEvJFIQ5V2ianbdSZx9iKWI",
+    link: "https://www.linkedin.com/in/ousmane-capinto-camara-2881b3323/",
   },
   {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
+    name: "Maï-Ly",
+    username: "@Maï-Ly Rivière Laurent",
+    body: "Congratulations for your investment in this project! 👏🏼We look forward to seeing you for the next edition!",
+    img: "https://media.licdn.com/dms/image/v2/D4E03AQEN4l2mUCiKWQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1694438691376?e=1758153600&v=beta&t=Yj8pOQ7QP57FAKN_Fbau_yb6WzmJ7R9uu5PgBP0ivGA",
+    link: "https://www.linkedin.com/in/maï-lyrivièrelaurent/",
   },
   {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+    name: "Wael",
+    username: "@Wael Sayed",
+    body: "A robot like that to serve us morning coffee without even changing rooms would be perfect 🤣",
+    img: "https://media.licdn.com/dms/image/v2/D4E03AQHFEOU4sp59mg/profile-displayphoto-shrink_400_400/B4EZXfMl.gGgAk-/0/1743206376230?e=1758153600&v=beta&t=chYmCucJg0m5Wt2F2jtEvomrZWuAM652eQUGCXS2sYQ",
+    link: "https://www.linkedin.com/in/wael-sayed03/",
   },
 ];
