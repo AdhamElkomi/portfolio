@@ -2,7 +2,7 @@
 
 A futuristic, animated 3D portfolio built with React, Three.js, TailwindCSS, and motion effects — crafted to showcase my engineering work in **robotics**, **simulation**, and **intelligent systems**.
 
-![Portfolio Screenshot](https://adhamelkomi.github.io/portfolio/assets/projects/ASFOUR.jpg)
+![Portfolio Screenshot](https://adhamelkomi.github.io/portfolio/assets/projects/website.png)
 
 This portfolio was designed to showcase my engineering projects in robotics, embedded programming, simulation, and 3D design in an interactive and visually appealing way. It serves as a personal showcase to highlight my technical skills, design approach, and key experiences gained throughout my studies.
 
