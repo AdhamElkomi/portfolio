@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL;
+
 export const myProjects = [
   {
     id: 1,
@@ -9,29 +11,29 @@ export const myProjects = [
       "Applied ROS fundamentals (nodes, topics, packages) in a real robotic environment.",
       "Improved system behavior through testing and structured debugging.",
     ],
-    href: "/projects/JackalProject",
-    logo: "/assets/logo/VL-clearpath.png",
-    image: "/assets/projects/exploration_2D&3D.gif",
+    href: import.meta.env.BASE_URL + "projects/JackalProject",
+    logo: BASE + "/assets/logo/VL-clearpath.png",
+    image: BASE + "/assets/projects/exploration_2D&3D.gif",
     tags: [
       {
         id: 1,
         name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        path: BASE + "/assets/logos/cplusplus.svg",
       },
       {
         id: 2,
         name: "ROS",
-        path: "/assets/logos/ROS.svg",
+        path: BASE + "/assets/logos/ROS.svg",
       },
       {
         id: 3,
         name: "Shell/Linux",
-        path: "/assets/logos/terminal-svgrepo-com.svg",
+        path: BASE + "/assets/logos/terminal-svgrepo-com.svg",
       },
       {
         id: 4,
         name: "RViz",
-        path: "/assets/logos/Rviz_logo.svg",
+        path: BASE + "/assets/logos/Rviz_logo.svg",
       },
     ],
   },
@@ -45,19 +47,19 @@ export const myProjects = [
       "Worked with the engineering team to align design with hardware integration.",
       "Ranked 4th out of 12 teams in the final held on June 4, 2025, in Puteaux, France.",
     ],
-    href: "/projects/AwakeProject",
+    href: import.meta.env.BASE_URL + "projects/AwakeProject",
     logo: "",
-    image: "/assets/awake_design.gif",
+    image: BASE + "/assets/awake_design.gif",
     tags: [
       {
         id: 1,
         name: "Fusion 360",
-        path: "/assets/logos/fusion360.png",
+        path: BASE + "/assets/logos/fusion360.png",
       },
       {
         id: 2,
         name: "Arduino",
-        path: "/assets/logos/arduino.png",
+        path: BASE + "/assets/logos/arduino.png",
       },
     ],
   },
@@ -70,29 +72,29 @@ export const myProjects = [
       "Tested LiDAR detection in real time using RSView after learning the basics.",
       "Removed outliers with CloudCompare using data from ROS."
     ],
-    href: "/projects/lidar-project",
+    href: import.meta.env.BASE_URL + "projects/lidar-project",
     logo: "",
-    image: "/assets/projects/RvizGIF.gif",
+    image: BASE + "/assets/projects/RvizGIF.gif",
     tags: [
       {
         id: 1,
         name: "CloudCompare",
-        path: "/assets/logos/CloudCompareV2_logo.png",
+        path: BASE + "/assets/logos/CloudCompareV2_logo.png",
       },
       {
         id: 2,
         name: "ROS",
-        path: "/assets/logos/ROS_icon.png",
+        path: BASE + "/assets/logos/ROS_icon.png",
       },
       {
         id: 3,
         name: "Gazebo",
-        path: "/assets/logos/Gazebo.png",
+        path: BASE + "/assets/logos/Gazebo.png",
       },
       {
         id: 4,
         name: "Python",
-        path: "/assets/logos/Python_logo_01.png",
+        path: BASE + "/assets/logos/Python_logo_01.png",
       },
     ],
   },
@@ -104,29 +106,29 @@ export const myProjects = [
     subDescription: [
       "In a team of students, I helped develop a Webots simulation of a mobile robot that draws geometric shapes like squares, triangles, and circles. We focused on coding motion sequences using simple kinematics and fine-tuned the trajectories for smooth results.",
     ],
-    href: "/projects/DrawBOT",
+    href: import.meta.env.BASE_URL + "projects/DrawBOT",
     logo: "",
-    image: "/assets/projects/DrawBOT1.jpg",
+    image: BASE + "/assets/projects/DrawBOT1.jpg",
     tags: [
       {
         id: 1,
         name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        path: BASE + "/assets/logos/cplusplus.svg",
       },
       {
         id: 2,
         name: "Arduino",
-        path: "/assets/logos/arduino.png",
+        path: BASE + "/assets/logos/arduino.png",
       },
       {
         id: 3,
         name: "webots",
-        path: "/assets/logos/webots.png",
+        path: BASE + "/assets/logos/webots.png",
       },
       {
         id: 4,
         name: "Fusion",
-        path: "/assets/logos/fusion360.png",
+        path: BASE + "/assets/logos/fusion360.png",
       },
     ],
   },
@@ -138,19 +140,19 @@ export const myProjects = [
     subDescription: [
       "An interactive simulation where virtual birds flock in real time, following simple rules that create smooth, lifelike group motion. A visual and engaging dive into swarm intelligence. Try it yourself—it's available on my GitHub!"
     ],
-    href: "/projects/BoidsProject",
+    href: import.meta.env.BASE_URL + "projects/BoidsProject",
     logo: "",
-    image: "/assets/projects/ASFOUR.jpg",
+    image: BASE + "/assets/projects/ASFOUR.jpg",
     tags: [
       {
         id: 1,
         name: "Python",
-        path: "/assets/logos/Python_logo_01.png",
+        path: BASE + "/assets/logos/Python_logo_01.png",
       },
       {
         id: 2,
         name: "Pygame",
-        path: "/assets/logos/pygame_icon.jpg",
+        path: BASE + "/assets/logos/pygame_icon.jpg",
       }
     ],
   }

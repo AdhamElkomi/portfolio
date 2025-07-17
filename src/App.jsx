@@ -50,7 +50,7 @@ const Home = () => (
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <ScrollToHash />
       <Routes>
         <Route path="/" element={<Home />} />

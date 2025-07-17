@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
+const BASE = import.meta.env.BASE_URL;
+
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i = 1) => ({
@@ -34,8 +36,8 @@ const LidarProject = () => {
               <p>These measurements generate a 3D point cloud that faithfully represents the surrounding space.</p>
             </div>
             <div className="flex flex-col md:flex-row items-center gap-4">
-              <img src="/assets/projects/lidarscan.gif" alt="LiDAR" className="h-auto max-h-[300px] w-auto rounded-xl border border-white/20 shadow-lg" />
-              <img src="/assets/projects/robosense.png" alt="Robosense Logo" className="h-auto max-h-[300px] w-auto rounded-xl" />
+              <img src={BASE + "/assets/projects/lidarscan.gif"} alt="LiDAR" className="h-auto max-h-[300px] w-auto rounded-xl border border-white/20 shadow-lg" />
+              <img src={BASE + "/assets/projects/robosense.png"} alt="Robosense Logo" className="h-auto max-h-[300px] w-auto rounded-xl" />
             </div>
           </div>
         </motion.section>
@@ -50,11 +52,11 @@ const LidarProject = () => {
           </p>
           <div className="flex flex-col md:flex-row justify-center gap-6 items-center">
             <div className="flex flex-col items-center">
-              <img src="/assets/projects/GIF_.gif" alt="Before filtering" className="w-full md:w-[90%] rounded-xl border border-white/10" />
+              <img src={BASE + "/assets/projects/GIF_.gif"} alt="Before filtering" className="w-full md:w-[90%] rounded-xl border border-white/10" />
               <p className="text-sm text-neutral-400 mt-2">Before filtering</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src="/assets/projects/GIF__1.gif" alt="After filtering" className="w-full md:w-[90%] rounded-xl border border-white/10" />
+              <img src={BASE + "/assets/projects/GIF__1.gif"} alt="After filtering" className="w-full md:w-[90%] rounded-xl border border-white/10" />
               <p className="text-sm text-neutral-400 mt-2">After filtering</p>
             </div>
           </div>
@@ -65,15 +67,15 @@ const LidarProject = () => {
           <h2 className="text-4xl font-bold text-center mb-12">🎯 Context and Objectives</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center space-y-4">
-              <img src="/assets/projects/Picture13.png" className="mx-auto w-20" alt="Study" />
+              <img src={BASE + "/assets/projects/Picture13.png"} className="mx-auto w-20" alt="Study" />
               <p className="text-neutral-300">Study the behavior of the <strong>RS-LiDAR-16</strong> sensor.</p>
             </div>
             <div className="text-center space-y-4">
-              <img src="/assets/projects/Picture14.png" className="mx-auto w-20" alt="Analysis" />
+              <img src={BASE + "/assets/projects/Picture14.png"} className="mx-auto w-20" alt="Analysis" />
               <p className="text-neutral-300">Analyze the raw data from the LiDAR (e.g., distance, intensity).</p>
             </div>
             <div className="text-center space-y-4">
-              <img src="/assets/projects/Picture15.png" className="mx-auto w-20" alt="Filtering" />
+              <img src={BASE + "/assets/projects/Picture15.png"} className="mx-auto w-20" alt="Filtering" />
               <p className="text-neutral-300">Apply signal processing techniques to filter out outliers.</p>
             </div>
           </div>
@@ -88,7 +90,7 @@ const LidarProject = () => {
               <p>The formula used is: <strong>ds = d + n × σ</strong>, where d is the average neighbor distance, σ is the standard deviation, and n is a tuning factor.</p>
               <p>This threshold helps eliminate inconsistent data such as parasitic reflections or dust.</p>
             </div>
-            <img src="/assets/projects/methodefiltrage.png" className="w-full md:w-1/2 max-w-md rounded-xl border border-white/10" alt="Statistical method" />
+            <img src={BASE + "/assets/projects/methodefiltrage.png"} className="w-full md:w-1/2 max-w-md rounded-xl border border-white/10" alt="Statistical method" />
           </div>
         </motion.section>
 
@@ -99,7 +101,7 @@ const LidarProject = () => {
             Data from the RS-LiDAR-16 sensor was captured via ROS (Robot Operating System) and recorded in rosbag files.
             These files were then converted to be usable by the CloudCompare software.
           </p>
-          <img src="/assets/projects/lidarjackal.png" className="mx-auto w-full md:w-2/3 rounded-xl border border-white/20" alt="ROS capture" />
+          <img src={BASE + "/assets/projects/lidarjackal.png"} className="mx-auto w-full md:w-2/3 rounded-xl border border-white/20" alt="ROS capture" />
         </motion.section>
 
         {/* 6. CloudCompare Results */}
@@ -110,11 +112,11 @@ const LidarProject = () => {
           </p>
           <div className="flex flex-col md:flex-row justify-center gap-6 items-center">
             <div className="flex flex-col items-center">
-              <img src="/assets/projects/avantfiltrage.png" alt="Before filtering" className="w-full md:w-[90%] rounded-xl border border-white/20" />
+              <img src={BASE + "/assets/projects/avantfiltrage.png"} alt="Before filtering" className="w-full md:w-[90%] rounded-xl border border-white/20" />
               <p className="text-sm text-neutral-400 mt-2">Before filtering</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src="/assets/projects/apresfiltrage.png" alt="After filtering" className="w-full md:w-[90%] rounded-xl border border-white/20" />
+              <img src={BASE + "/assets/projects/apresfiltrage.png"} alt="After filtering" className="w-full md:w-[90%] rounded-xl border border-white/20" />
               <p className="text-sm text-neutral-400 mt-2">After filtering</p>
             </div>
           </div>
@@ -122,7 +124,7 @@ const LidarProject = () => {
 
         {/* Back Button */}
         <div className="text-center mt-20">
-          <Link to="/#Projects" className="inline-block px-6 py-2 text-sm font-semibold text-white transition border border-white rounded hover:bg-white hover:text-midnight">
+          <Link to="//#Projects" className="inline-block px-6 py-2 text-sm font-semibold text-white transition border border-white rounded hover:bg-white hover:text-midnight">
             ← Back to Projects
           </Link>
         </div>

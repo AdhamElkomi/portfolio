@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+const BASE = import.meta.env.BASE_URL;
+
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: (i = 1) => ({
@@ -36,7 +38,7 @@ const AwakeProject = () => {
           >
             <div className="bg-white/10 p-2 rounded-xl backdrop-blur-md border border-white/20 hover:scale-105 transition transform shadow-lg">
               <img
-                src="/assets/logos/innovateam.jpg"
+                src={BASE + "/assets/logos/innovateam.jpg"}
                 alt="Innovateam"
                 className="h-16 md:h-20 w-auto object-contain"
               />
@@ -80,7 +82,7 @@ const AwakeProject = () => {
             {/* 🖼️ Design GIF */}
             <div className="flex justify-center">
               <img
-                src="/assets/awake_design.gif"
+                src={BASE + "/assets/awake_design.gif"}
                 alt="Design Process"
                 className="rounded-xl shadow-md w-[100%] max-w-[500px] border border-white/20"
               />
@@ -161,9 +163,9 @@ const AwakeProject = () => {
             <video
               controls
               className="rounded-lg shadow-md w-full max-w-[600px]"
-              poster="/assets/projects/mcqueen-thumb.jpg"
+              poster={BASE + "/assets/projects/mcqueen-thumb.jpg"}
             >
-              <source src="/assets/awakevid.mp4" type="video/mp4" />
+              <source src={BASE + "/assets/awakevid.mp4"} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -193,7 +195,7 @@ const AwakeProject = () => {
         {/* Return Button */}
         <div className="text-center pt-10">
           <Link
-            to="/#Projects"
+            to="//#Projects"
             className="inline-block px-6 py-2 text-sm font-semibold text-white border border-white rounded hover:bg-white hover:text-midnight transition"
           >
             ← Back to Projects

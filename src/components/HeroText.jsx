@@ -62,7 +62,7 @@ const HeroText = () => {
             transition={{ delay: 1.8 }}
           >
             <a
-              href="/assets/CV - ALI Adham (ENG) (2).pdf"
+              href={import.meta.env.BASE_URL + "/assets/CV - ALI Adham (ENG) (2).pdf"}
               download="Adham_ALI_CV.pdf"
               className="group relative inline-flex items-center px-6 py-3 overflow-hidden font-semibold text-white transition-all duration-300 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl shadow-xl hover:scale-105 hover:shadow-2xl"
             >

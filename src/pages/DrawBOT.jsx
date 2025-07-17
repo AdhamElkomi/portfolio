@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+const BASE = import.meta.env.BASE_URL;
+
 const DrawBOT = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] px-6 py-16 text-white">
@@ -31,16 +33,16 @@ const DrawBOT = () => {
           variants={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } }}>
           <div className="flex justify-center items-center gap-4 mb-6">
             <h2 className="text-4xl font-bold text-center">🎮 Interactive Modes</h2>
-            <img src="/assets/logos/webots.png" alt="Webots Logo" className="h-12 w-auto" />
+            <img src={BASE+"/assets/logos/webots.png"} alt="Webots Logo" className="h-12 w-auto" />
           </div>
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-white/5 rounded-xl p-6 shadow-xl border border-white/10 hover:scale-105 transition-transform duration-300">
-              <img src="/assets/projects/webotsauto.png" alt="Automatic Mode" className="rounded-xl mb-4" />
+              <img src={BASE+"/assets/projects/webotsauto.png"} alt="Automatic Mode" className="rounded-xl mb-4" />
               <h3 className="text-2xl font-semibold mb-2 text-white">Automatic Mode</h3>
               <p className="text-neutral-300">The user selects the shape (square, triangle, or circle), and the robot executes the drawing based on predefined motion commands.</p>
             </div>
             <div className="bg-white/5 rounded-xl p-6 shadow-xl border border-white/10 hover:scale-105 transition-transform duration-300">
-              <img src="/assets/projects/webotsmanu.png" alt="Manual Mode" className="rounded-xl mb-4" />
+              <img src={BASE+"/assets/projects/webotsmanu.png"} alt="Manual Mode" className="rounded-xl mb-4" />
               <h3 className="text-2xl font-semibold mb-2 text-white">Manual Mode</h3>
               <p className="text-neutral-300">The user controls the robot in real-time. The robot only draws if the full shape can be safely completed without hitting any walls or obstacles.</p>
             </div>
@@ -77,12 +79,12 @@ const DrawBOT = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-3 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg shadow-lg transition">
-                <img src="/assets/logos/linkedin.png" alt="LinkedIn" className="w-6 h-6" />
+                <img src={BASE+"/assets/logos/linkedin.png"} alt="LinkedIn" className="w-6 h-6" />
                 <span className="text-white font-semibold">View Full Demo on LinkedIn</span>
               </a>
             </div>
             <div className="flex justify-center">
-              <img src="/assets/projects/drawbotcercle.jpg" alt="Demo Teaser" className="rounded-xl w-full max-w-sm shadow-xl" />
+              <img src={BASE+"/assets/projects/drawbotcercle.jpg"} alt="Demo Teaser" className="rounded-xl w-full max-w-sm shadow-xl" />
             </div>
           </div>
         </motion.section>
@@ -90,7 +92,7 @@ const DrawBOT = () => {
         {/* Back Button */}
         <div className="text-center mt-20">
           <Link
-            to="/#Projects"
+            to="//#Projects"
             className="inline-block px-6 py-2 text-sm font-semibold text-white transition border border-white rounded hover:bg-white hover:text-midnight">
             ← Back to Projects
           </Link>

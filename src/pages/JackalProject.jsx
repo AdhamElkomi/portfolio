@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+const BASE = import.meta.env.BASE_URL;
+
 const JackalProject = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-midnight via-navy to-midnight px-6 py-16 text-white">
@@ -35,7 +37,7 @@ const JackalProject = () => {
           transition={{ delay: 0.6, duration: 0.6 }}
         >
           <img
-            src="/assets/projects/jackal.jpg"
+            src={BASE + "/assets/projects/jackal.jpg"}
             alt="Jackal robot during autonomous navigation test"
             className="rounded-xl shadow-2xl hover:scale-105 transition-transform duration-300 ease-in-out max-w-2xl w-md object-cover"
           />
@@ -168,7 +170,7 @@ const JackalProject = () => {
           transition={{ delay: 0.2 }}
         >
           <Link
-            to="/#Projects"
+            to="//#Projects"
             className="inline-block px-6 py-2 text-sm font-semibold text-white transition border border-white rounded hover:bg-white hover:text-midnight"
           >
             ← Back to Projects
