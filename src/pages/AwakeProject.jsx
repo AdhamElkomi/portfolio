@@ -186,7 +186,7 @@ const AwakeProject = () => {
               <li>Arduino programming for real-time navigation.</li>
             </ul>
             <ul className="list-disc list-inside space-y-2">
-              <li>Mastered Fusion 360 and structural modeling for robotics.</li>
+              <li>Mastered Fusion 360 and structural modeling for robotics. </li>
               <li>Learned to work efficiently in a multidisciplinary team.</li>
             </ul>
           </div>
