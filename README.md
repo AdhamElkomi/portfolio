@@ -1,32 +1,28 @@
-# 🚀 3D Developer Portfolio
+# 🤖 Adham ALI – 3D Robotics Developer Portfolio
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
+A futuristic, animated 3D portfolio built with React, Three.js, TailwindCSS, and motion effects — crafted to showcase my engineering work in **robotics**, **simulation**, and **intelligent systems**.
 
-![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
+![Portfolio Screenshot](https://adhamelkomi.github.io/portfolio/assets/projects/ASFOUR.jpg)
 
----
+This portfolio was designed to showcase my engineering projects in robotics, embedded programming, simulation, and 3D design in an interactive and visually appealing way. It serves as a personal showcase to highlight my technical skills, design approach, and key experiences gained throughout my studies.
 
-## 📚 Table of Contents
+The interface offers smooth navigation within a 3D animated environment, with a dedicated section for each project. Every project page presents the context, technical contributions, technologies used, visuals (GIFs, images, videos), and sometimes external links to source code or demonstrations.
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Assets](#-assets)
-- [Contact Me](#-contact-me)
-- [Suggestions or Feedback](#-suggestions-or-feedback)
-- [Like This Project?](#-like-this-project)
+It features a variety of work ranging from autonomous robot programming with ROS, to mechanical design using Fusion 360, simulation with Webots, and LiDAR data processing.
+
+This portfolio is both a professional presentation tool and a personal project that reflects my passion for intelligent and interactive systems.
 
 ---
 
 ## ✨ Features
 
-- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
-- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
-- 🎨 Clean, responsive UI with **TailwindCSS**
-- 💌 Working contact form using **EmailJS**
-- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
-- 🚀 Lightning-fast development with **Vite**
+- 🎮 3D visuals powered by **React Three Fiber** and **Drei**
+- ⚙️ Animated interactions with **Framer Motion**
+- 🧠 Clean and scalable architecture in **TypeScript + Vite**
+- 💌 Contact form with real-time email handling via **EmailJS**
+- 🎨 Responsive & dark-mode-ready with **TailwindCSS**
+- 🚀 GitHub Pages deployment for fast loading
+- 🎥 Embedded videos, simulations, and design previews
 
 ---
 
@@ -40,9 +36,7 @@ A modern, animated 3D developer portfolio built with React, Three.js, TailwindCS
 | React Three Fiber | 3D rendering with Three.js in React   |
 | Drei              | Helpers and abstractions for R3F      |
 | Framer Motion     | Animation library for React           |
-| EmailJS           | Form handling and email integration   |
-| Aceternity UI     | Custom UI components                  |
-| Magic UI          | Prebuilt UI elements and design extras|
+| EmailJS           | Email contact integration             |
 
 ---
 
@@ -50,67 +44,34 @@ A modern, animated 3D developer portfolio built with React, Three.js, TailwindCS
 
 ```bash
 ├── public/
-│   ├── assets/             # Images, textures, models
-│   ├── models/             # 3D Astronaut model
-│   └── vite.svg
+│   ├── assets/             # Images, textures, icons
+│   ├── models/             # 3D astronaut model (GLB)
+│   └── ...
 ├── src/
-│   ├── components/         # Reusable components
-│   ├── constants/          # Reusable datas
-│   ├── sections/           # Portfolio sections (Hero, About, etc.)
-│   ├── App.jsx             # Main app file
-│   ├── index.css           # Tailwind css
-│   └── main.jsx            # Entry point
+│   ├── components/         # Shared UI components
+│   ├── constants/          # Static data like projects/tags
+│   ├── pages/              # Dynamic routed pages for projects
+│   ├── sections/           # Sections like Hero, About, Contact
+│   ├── App.jsx             # Root application
+│   ├── main.jsx            # Entry point
+│   └── index.css           # TailwindCSS setup
 ├── tailwind.config.js
 └── vite.config.js
 ```
 
----
-
-## 🚀 Getting Started
-1. Clone the Repository
-```bash
-git clone https://github.com/Ali-Sanati/Portfolio.git
-cd Portfolio
-```
-2. Install Dependencies
-```bash
-npm install
-```
-3. Run the Development Server
-```bash
-npm run dev
-```
-The app will be available at http://localhost:5173.
-
----
-
-## 🔗 Assets
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
-
----
+## ⭐ Like This Project?
+If you appreciate the design or want to reuse parts for your own portfolio,
+**feel free to star the repo** and follow me for updates!
+`Thank you 🙏 for visiting.`
+`Let's keep building intelligent systems together.`
 
 ## 📬 Contact Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ali.sanatidev/reels/) 
-[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-sanati/) 
 
----
+Feel free to reach out if you'd like to discuss a project, collaboration, or simply say hello 👋
 
-## 💡 Suggestions or Feedback?
-Leave a comment on the [YouTube video](https://youtu.be/S9UQItTpwUQ) or open an issue here on GitHub.<br/>
-👉 What should I build next?
+- 📧 **Email**: [![Email](https://img.shields.io/badge/Email-adham.ahmedkomi%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:adham.ahmedkomi@gmail.com)
+- 💼 **LinkedIn**: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adham%20ALI-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adham-ali-b92926303/)
 
-- A beautiful Landing Page
 
-- A complete E-commerce site
 
-- A fun App Clone (YouTube, Netflix, etc.)
 
-Or another interactive Portfolio
-
-Let me know!
-
----
-
-## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
