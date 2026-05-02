@@ -39,7 +39,7 @@ const About = () => {
               
               {/* Logo ImViA */}
               <img
-                src="assets/logos/ImViA.png"
+                src="assets/logos/Septentrio_logo.png"
                 alt="ImViA Logo"
                 className="w-[120px] h-auto"
               />
